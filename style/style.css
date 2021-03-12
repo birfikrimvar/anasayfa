@@ -1,0 +1,104 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../assets/fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+
+
+/* Main changes */
+.window {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+/* Site Branding */
+.logo {
+    width: 150px;
+    height: auto !important;
+}
+
+/* Navigation */
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-cont {
+    margin: 0;
+    padding: 0;
+}
+.nav-cont ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-cont a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Content */
+.blog {
+    margin-top: 70px;
+}
+
+.blog-cont{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.blogimg-thumb {
+    width: 350px;
+    height: auto !important;
+}
+
+/* Footer */
+.footer-inner {
+    text-align: center;
+}
+
+/* Blog Pages */
+.blog-title {
+    font-size: 2rem;
+}
+
+.blog-text {
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.blogimg {
+    margin-bottom: 20px;
+    width: 600px;
+    height: auto !important;
+}
+
